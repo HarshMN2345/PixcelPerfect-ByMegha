@@ -116,7 +116,7 @@ const Desktop: NextPage = () => {
           </div>
         </div>
       </section>
-      <section className="self-stretch h-[749px] flex flex-col items-start justify-start pt-0 px-0 pb-[223.8px] box-border max-w-full mq800:h-auto mq800:pb-[94px] mq800:box-border mq1125:pb-[145px] mq1125:box-border">
+      <section className="bg-gray-700 self-stretch h-[899px] flex flex-col items-start justify-start pt-0 px-0 pb-[223.8px] box-border max-w-full mq800:h-auto mq800:pb-[94px] mq800:box-border mq1125:pb-[145px] mq1125:box-border">
         <FooterContent />
         <SocialLinks />
       </section>

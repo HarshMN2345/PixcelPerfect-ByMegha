@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import HamburgerMenu from "./HamburgerMenu";
 
 export type FrameComponentType = {
   className?: string;
@@ -23,7 +24,9 @@ const FrameComponent: NextPage<FrameComponentType> = ({ className = "" }) => {
             Pixcel Perfect
           </a>
         </div>
-        <nav className="m-0 w-[491px] flex flex-row items-start justify-start max-w-full mq800:gap-[24px]">
+        {/* 820 breakpoint */}
+        {/* Desktop Navigation */}
+        <nav className="m-0 w-[491px] flex flex-row items-start justify-start max-w-full mq800:hidden">
           <nav className="m-0 flex-1 flex flex-row items-center justify-between max-w-full gap-[20px] whitespace-nowrap text-left text-lg text-gray-600 font-title-medium mq800:flex-wrap">
             <a className="[text-decoration:none] relative tracking-[0.04em] text-[inherit] inline-block min-w-[80px]">
               Services
@@ -39,7 +42,13 @@ const FrameComponent: NextPage<FrameComponentType> = ({ className = "" }) => {
             </a>
           </nav>
         </nav>
-        <button className="cursor-pointer [border:none] py-2 px-[31px] bg-gray-600 rounded-81xl flex flex-row items-center justify-center whitespace-nowrap hover:bg-dimgray-100">
+        
+        {/* Mobile Hamburger Menu */}
+        <div className="hidden mq800:block">
+          <HamburgerMenu />
+        </div>
+
+        <button className="cursor-pointer [border:none] py-2 px-[31px] bg-gray-600 rounded-81xl flex flex-row items-center justify-center whitespace-nowrap hover:bg-dimgray-100 mq800:hidden">
           <a href="https://calendly.com/pixcelperfectofficial/demo-call"  className="[text-decoration:none] relative text-lg leading-[32px] font-medium font-title-medium text-white text-left inline-block min-w-[94px]">
             Book a call
           </a>
