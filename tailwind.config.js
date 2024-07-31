@@ -137,7 +137,7 @@ module.exports = {
     keyframes: {
       scroll: {
         '0%': { transform: 'translateX(0)' },
-        '100%': { transform: 'translateX(-50%)' },
+        '100%': { transform: 'translateX(calc(-436.2px * 4))'}, // 4 is the number of unique images
       },
     },
     screens: {
