@@ -51,6 +51,11 @@ const InfiniteScroll: React.FC = () => {
               alt=""
               src="/inbox-2.svg"
             />
+            <img
+              className="h-[246.5px] w-[436.2px] relative rounded-[5.68px] overflow-hidden shrink-0 max-w-full"
+              alt=""
+              src="/inbox-2.svg"
+            />
             {/* Add more images here */}
           </div>
         </section>
