@@ -131,6 +131,15 @@ module.exports = {
       "base-7": "16.7px",
       inherit: "inherit",
     },
+    animation: {
+      scroll: 'scroll 30s linear infinite',
+    },
+    keyframes: {
+      scroll: {
+        '0%': { transform: 'translateX(0)' },
+        '100%': { transform: 'translateX(-50%)' },
+      },
+    },
     screens: {
       mq1300: {
         raw: "screen and (max-width: 1300px)",

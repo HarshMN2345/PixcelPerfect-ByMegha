@@ -9,6 +9,7 @@ import FrameComponent3 from "../components/frame-component3";
 import FrameComponent4 from "../components/frame-component4";
 import FooterContent from "../components/footer-content";
 import SocialLinks from "../components/social-links";
+import InfiniteScroll from "../components/InfiniteScroll";
 
 const Desktop: NextPage = () => {
   return (
@@ -19,7 +20,7 @@ const Desktop: NextPage = () => {
           <FrameComponent1 />
         </div>
       </section>
-      <section className="flex flex-row items-start justify-start relative max-w-full">
+      {/* <section className="flex flex-row items-start justify-start relative max-w-full">
         <div className="h-[136px] w-[136px] absolute !m-[0] right-[69px] bottom-[-14px] [filter:blur(400px)] rounded-981xl bg-goldenrod-100" />
         <div className="w-[1366px] flex flex-row items-start justify-start pt-0 pb-[124.4px] pr-[3px] pl-[93px] box-border gap-[32px] max-w-full mq800:gap-[16px] mq800:pl-[23px] mq800:box-border mq450:pb-[81px] mq450:box-border mq1300:flex-wrap mq1300:justify-center mq1300:pl-[46px] mq1300:box-border">
           <AnalysisWebsiteOverview />
@@ -70,7 +71,8 @@ const Desktop: NextPage = () => {
             />
           </div>
         </div>
-      </section>
+      </section> */}
+      <InfiniteScroll/>
       <PartnerTypes />
       <FrameComponent2 />
       <FrameComponent3 />
