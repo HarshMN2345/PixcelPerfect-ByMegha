@@ -34,13 +34,13 @@ const FrameComponent: NextPage<FrameComponentType> = ({ className = "" }) => {
             <a className="[text-decoration:none] relative tracking-[0.04em] text-[inherit] inline-block min-w-[115px]">
               Testimonials
             </a>
-            <a className="[text-decoration:none] relative tracking-[0.04em] text-[inherit] inline-block min-w-[100px]">
+            <a href="https://calendly.com/pixcelperfectofficial/demo-call" className="[text-decoration:none] relative tracking-[0.04em] text-[inherit] inline-block min-w-[100px]">
               Contact us
             </a>
           </nav>
         </nav>
         <button className="cursor-pointer [border:none] py-2 px-[31px] bg-gray-600 rounded-81xl flex flex-row items-center justify-center whitespace-nowrap hover:bg-dimgray-100">
-          <a className="[text-decoration:none] relative text-lg leading-[32px] font-medium font-title-medium text-white text-left inline-block min-w-[94px]">
+          <a href="https://calendly.com/pixcelperfectofficial/demo-call"  className="[text-decoration:none] relative text-lg leading-[32px] font-medium font-title-medium text-white text-left inline-block min-w-[94px]">
             Book a call
           </a>
         </button>

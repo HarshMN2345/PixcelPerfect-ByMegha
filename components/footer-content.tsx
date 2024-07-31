@@ -28,9 +28,16 @@ const FooterContent: NextPage<FooterContentType> = ({ className = "" }) => {
           </div>
           <div className="w-[732px] flex flex-row items-start justify-center py-0 pr-px pl-0 box-border max-w-full">
             <button className="cursor-pointer py-2.5 px-[31px] bg-gray-600 rounded-81xl flex flex-row items-start justify-start whitespace-nowrap border-[1px] border-solid border-goldenrod-200 hover:bg-dimgray-100 hover:box-border hover:border-[1px] hover:border-solid hover:border-goldenrod-300">
-              <div className="relative text-lg leading-[32px] font-medium font-title-medium text-white text-left inline-block min-w-[109px]">
-                Get in Touch
-              </div>
+              <a
+                href="https://calendly.com/pixcelperfectofficial/demo-call"
+                className="no-underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="relative text-lg leading-[32px] font-medium font-title-medium text-white text-left inline-block min-w-[109px]">
+                  Get in Touch
+                </div>
+              </a>
             </button>
           </div>
         </div>
